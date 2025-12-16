@@ -46,6 +46,7 @@ void loop() {
       if(ent){
         q2 = q1;
         sp2 = false;
+        ent = false;
       }
     }
     if(cmd == "MSR2"){
@@ -59,6 +60,7 @@ void loop() {
       if(ent){
         q1 = q2;
         sp1 = false;
+        ent = false;
       }
     }
     if(cmd == "NOT1"){
